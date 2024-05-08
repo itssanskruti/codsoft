@@ -1,0 +1,73 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.dark{
+    background-color: rgb(95, 93, 93);
+}
+.lightinp{
+    background-color: #cfcece;
+    color: black;
+}
+.darkinp{
+    background-color: black;
+    color: #fff;
+}
+.light{
+    background-color: #fff;
+    color: black;
+}
+.dark1{
+    height: 410px;
+    width: 280px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid white; 
+    display: block;
+    box-shadow: -5px 2px 0px gray , 5px 2px 0px gray;
+}
+.light1{
+    background-color: rgb(132, 131, 131);
+    height: 410px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid white; 
+    display: block;
+    box-shadow: -5px 2px 0px gray , 5px 2px 0px gray;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin-right: 20px;
+}
+input{
+    box-sizing: border-box;
+    height: 90px;
+    width: 280px;
+    text-align: right;
+    border: 3px solid white; 
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.buttons button{
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: medium;
+    border: 2px solid white; 
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: -2px 3px 0px gray , 2px 3px 0px gray;
+}
+.buttons button:active{
+    transform: scale(0.89);
+}
+
